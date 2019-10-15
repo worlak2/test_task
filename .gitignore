@@ -1,0 +1,5 @@
+# Project exclude paths
+/venv/
+/image_directory/*
+!/office_world/migrations/__init__.py
+/office_world/migrations/*

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}/">
+    <script type="text/javascript" src="{% static 'jquery.js' %}/"></script>
+    <script src="{% static 'bootstrap.js' %}/" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+{% include "office_world/include/navbar.html" %}
+{% block content %}
+{% endblock %}

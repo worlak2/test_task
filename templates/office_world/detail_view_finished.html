@@ -1,0 +1,8 @@
+{% include "office_world/include/header.html" %}
+{% block content %}
+    {% for i in voted_user %}
+        <label class="form-check-label" for="exampleRadios2">
+            {{ i.user }}
+        </label>
+    {% endfor %}
+{% endblock %}
